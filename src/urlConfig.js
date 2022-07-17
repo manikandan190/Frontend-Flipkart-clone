@@ -1,5 +1,5 @@
 
-const baseUrl = "http://localhost:2000";
+const baseUrl = "https://flipkart-rest-servers.herokuapp.com";
 
 export const api = `${baseUrl}/api`;
 
