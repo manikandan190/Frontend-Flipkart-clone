@@ -29,7 +29,7 @@ export default (state = initState, action) => {
       state = {
         ...state,
         
-        token: action.payload.token,
+        
         authenticate: true,
         authenticating: false,
       };
