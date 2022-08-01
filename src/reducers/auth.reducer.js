@@ -28,7 +28,7 @@ export default (state = initState, action) => {
     case authConstants.LOGIN_SUCCESS:
       state = {
         ...state,
-        user: action.payload.user,
+        
         token: action.payload.token,
         authenticate: true,
         authenticating: false,
